@@ -1,0 +1,137 @@
+
+#cnt-tit{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.contact-title{
+    margin: 1rem 26rem;
+    font-size: 3rem;
+    /* margin-left: 29rem; */
+  display: flex;
+  justify-content: center;
+    
+}
+
+.con-des{
+  display: flex;
+  justify-content: center;
+}
+.portfolioSection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    height: 45vh;
+    justify-content: center;
+    margin-top: 4.5rem;
+  }
+  
+  .leftSection {
+    flex: 1;
+    display: flex;
+    margin-left: 9rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profileImageContainer {
+    width: 170px; 
+    height: 170px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .profileImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .socialIcons {
+    display: flex;
+  }
+  
+  .socialIcon {
+    width: 30px; 
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .rightSection {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .contactInput {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    background: rgb(40, 40, 40);
+    border-radius: 7px;
+    color: #fff;
+  }
+  
+  .submit-btn {
+    background-color: #fff; /* Set your desired button color */
+    color: #000;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+    
+  }
+  
+  .submit-btn:hover {
+    background-color: #ff004f; /* Set the button color on hover */
+  }
+  
+  @media screen and (max-width:480px) {
+    #cnt-tit{
+            
+      width: 100vw;
+      margin-left: -13.5rem;
+    }
+    .contact-title{
+      margin: 2rem 21rem;
+      font-size: 2rem;
+    }
+    .contactForm{
+      margin-left: 16rem;
+    }
+    .con-des{
+      
+      max-width: 19rem;
+      margin-left: 17rem; 
+      display: flex;
+       flex-wrap: wrap; 
+      justify-content: center;
+
+    }
+    .leftSection{
+      position: absolute;
+      left: 60%;
+      transform: translateX(-90%);
+    }
+    .rightSection{
+     /* margin-right: 20rem; */
+    }
+    .portfolioSection{
+      margin-left: 52px;
+    }
+
+  }

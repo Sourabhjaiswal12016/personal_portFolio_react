@@ -1,0 +1,165 @@
+
+
+.pro-title{
+    margin: 1rem 23rem;
+    font-size: 3rem;
+    margin-left: 29rem;
+}
+
+.proDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: left;
+    max-width: 45rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 18rem;
+}
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75vw;
+    margin: auto;
+    background-color:rgb(90, 168, 168);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(45,45,45);
+    overflow: hidden; 
+    margin-bottom: 35px;
+    
+  }
+  
+  .slider {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #9c9494;
+    color: royalblue;
+    border-radius: 50%;
+  }
+  
+  .project-list {
+    display: flex;
+  }
+  
+  .project {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .left {
+    border-radius: 50% 0 0 50%;
+    color: #fff;
+    font-weight: 800;
+
+  }
+  
+  .right {
+    border-radius: 50%;
+    margin-left: -10px;
+    overflow: hidden;
+    color: #fff;
+    font-weight: 800;
+  }
+  
+  .links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    gap: 10px;
+    
+  }
+  .skills-used{
+    margin-top: 16px;
+    color: rgb(10, 49, 165);
+  }
+
+  .code{
+    height: 5px;
+    padding: 2px;
+    width: 10px;
+    background:#737171;
+    border-radius: 3px;
+  }
+  .live{
+    height: 7px;
+    padding: 2px;
+    width: 16px;
+    background:#fff;
+    border-radius: 3px;
+  }
+   
+  .seemore-btn{
+    padding: 0.5rem 2.5rem;
+    width: 8.5rem;
+    background: #fff;
+    color: #000;
+    border-radius: 7px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 0.5rem 36rem;
+    transition: background 0.3s ease-in-out;
+   }
+   .SeeMoreButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .seemore-button{
+    background: #fff;
+    color: #000;
+    border-radius: 7px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bolder;
+    /* margin: 0.5rem 36rem; */
+    transition: background 0.3s ease-in-out;
+
+   }
+   .seemore-btn:hover{
+       background: #ff004f;
+       color: rgb(30, 30, 30);
+   }
+  @media screen and (max-width:480px){
+    .main{
+      
+      width: 225vw;
+      margin-left: -13.5rem;
+
+    }
+    .pro-title{
+      margin: 2rem 7rem;
+      font-size: 2rem;
+    }
+    .seemore-btn{
+      margin-left: 9rem;
+    }
+    .project-list{
+      display: flex;
+      max-width: 49vw;
+      max-height: 100vh;
+    }
+    .project{
+      font-size: 14px; 
+        line-height: 1.4;
+    }
+  
+  }
